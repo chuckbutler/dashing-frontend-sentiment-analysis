@@ -1,0 +1,38 @@
+<% content_for :title do %>Sentiment Analysis Dashboard<% end %>
+
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-view="Clock"></div>
+      <i class="icon-time icon-background"></i>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div "data-id"="logo" data-view="Image" data-image="/ubuntu.png" style="background-color:#FFFFFF;"></div>
+    </li>
+
+    <li data-row="1" data-col="3" data-sizex="2" data-sizey="1">
+      <div data-id="sentiment" data-view="Text" data-title="Hello ODS 2014!" data-text="Welcome to this live presentation of a Lambda Architecture" data-moreinfo="Protip: You can tweet on #openstack, #juju, #ubuntu or #canonical in english"></div>
+    </li>
+
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="sentiment" data-view="Metern" data-title="Negative Tweets" data-min="0" data-max="100"></div>
+    </li>
+
+    <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="sentiment" data-view="Meterp" data-title="Positive Tweets" data-min="0" data-max="100"></div>
+    </li>
+
+    <li data-row="2" data-col="3" data-sizex="2" data-sizey="1">
+      <div data-id="twitter_mentions" data-view="Comments" style="background-color:#ff9618;" data-moreinfo="Tweets tagged with #openstack"></div>
+      <i class="icon-twitter icon-background"></i>
+    </li>
+
+    <li data-row="3" data-col="1" data-sizex="4" data-sizey="1">
+      <div data-id="node-app" data-view="Iframe" data-url="NODE_APP_URL"></div>
+    </li>
+   
+
+  </ul>
+  <center><div style="font-size: 12px">Don't forget to come and see us on our booth!</div></center>
+</div>

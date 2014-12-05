@@ -1,0 +1,35 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #00CC00;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.3);
+
+$meterp-background:  darken($background-color, 15%);
+
+// ----------------------------------------------------------------------------
+// Widget-meterp styles
+// ----------------------------------------------------------------------------
+.widget-meterp {
+
+  background-color: $background-color;
+
+  input.meterp {
+    background-color: $meterp-background;
+    color: #fff;
+  }
+
+  .title {
+    color: $title-color;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+}
